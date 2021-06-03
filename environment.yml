@@ -1,0 +1,17 @@
+name: gostnets-peartree-environment
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - networkx
+  - pandas
+  - geopandas
+  - osmnx
+  - shapely
+  - pip
+  - pip:
+    - nbgitpuller
+    - partridge
+    - matplotlib
+    - seaborn
